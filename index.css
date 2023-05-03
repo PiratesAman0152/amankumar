@@ -159,6 +159,19 @@ button:hover{
 .social-links{
     text-align: center;
 }
+.social-links > a{
+    padding: 10px;
+    font-size: 30px;
+    width: 50px;
+    text-align:center;
+    text-decoration: none;
+}
+.social-links > a{
+    color:cornflowerblue;
+}
+.social-links > a:hover{
+    color: red;
+}
 .box img{
     height:85% ;
     width:90%;
