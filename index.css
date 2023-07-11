@@ -37,20 +37,20 @@ nav ul li{
 }
 nav ul li a{
     text-decoration: none;
-    color: #487dd8;
+    color: #000;
     font: 14px;
     font-weight: bold;
 }
 nav ul li a:hover{
-    color:#a0e03f;
+    color:#ff5ea2;
 }
 .navbar h1 a{
     text-decoration: none;
-    color: #487dd8;
+    color: black;
     font-size: 20px;
 }
 .navbar h1 a:hover{
-    color:#a0e03f;
+    color: #FF5589;
 }
 .row{
     display: flex;
@@ -68,9 +68,8 @@ nav ul li a:hover{
 }
 .col-1 h3{
     font-size: 30px;
-    color: #a0e03f;
-    font-weight: bold;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #707070;
+    font-weight: 100;
     margin: 20px 0 10px;
 }
 .col-1 p{
@@ -86,10 +85,10 @@ nav ul li a:hover{
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
     text-decoration: none;
-    color:black;
+    color:cornflowerblue;
 }
 .col-1 h4 a:hover{
-    color:#487dd8;
+    color:#fb5283;
 }
 button{
     width: 140px;
@@ -97,7 +96,7 @@ button{
     padding: 12px 10px;
     outline: none;
     color: #fff;
-    background: linear-gradient(to right, #487dd8, #a0e03f);
+    background: linear-gradient(to right, #fb5283, #ff3527);
     border-radius: 6px;
     cursor: pointer;
     transition: width 0.5s;
@@ -123,7 +122,7 @@ button:hover{
     content: '';
     width: 10px;
     height: 57px;
-    background: linear-gradient(#487dd8, #a0e03f);
+    background: linear-gradient(#ff469f, #ff6062);
     position: absolute;
     left: -40px;
     top: 8px;
@@ -144,7 +143,7 @@ button:hover{
     position: absolute;
     right: 0;
     top: 0;
-    background: linear-gradient(#487dd8, #a0e03f);
+    background: linear-gradient(#ff54a2, #ff575a);
     border-radius: 20px 0 0 20px;
     height: 100%;
     width: 80%;
@@ -180,7 +179,7 @@ button:hover{
     color:cornflowerblue;
 }
 .social-links > a:hover{
-    color: #a0e03f;
+    color: #fb5283;
 }
 .box img{
     height:85% ;
@@ -228,7 +227,7 @@ button:hover{
 
     nav ul{
         width: 100%;
-        background:linear-gradient(#487dd8, #a0e03f) ;
+        background:linear-gradient(#ff54a2, #ff575a) ;
         position: absolute;
         top: 100px;
         right: 0px;
